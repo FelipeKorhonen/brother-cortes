@@ -9,8 +9,91 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.822);
     color: white;
+    text-align: center;
+}
+
+span#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burguer:hover {
+    background-color: #032F33;
+    color: black;
+    cursor: pointer;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0d4b69;
+    color: white;
+    border-top: 2px solid #00060fa2;
+}
+
+menu > ul > li > a:hover {
+    background-color: rgb(16, 19, 25);
+    color: white;
+}
+
+
+main {
+    max-width: 90vh;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+map > iframe {
+    background-position: center;
+    max-width: 95vw;
+    max-height: 95vh;
+    box-shadow: 1px 1px 8px #032F33;
+}
+
+div {
+    text-align: center;
+    background-color: #00060fa2;
+    background-position: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+
+    font-size: 2.5vw;
+}
+
+section.imagem {
+    background: black;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+section#img01 {
+    background: url(../imagens/barbearia.jpg) right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section#redes-sociais {
@@ -30,4 +113,15 @@ section#redes-sociais img:hover {
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
     transition: transform 0.5s, border 1s;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer >p > a {
+    text-decoration: none;
 }
