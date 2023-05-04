@@ -8,7 +8,19 @@
     <title>Termos de Uso</title>
 </head>
 <body>
+    <header>
+        <h1>Termos de Uso !</h1>
+    </header>
     <main>
+        <span id="burguer"  class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="trabalhosfeitos/trabalhos.html">Serviços</a></li>
+                <li><a href="">Contatos</a></li>
+                <li><a href="termosdeuso/termos.html">Termos de Uso</a></li>
+            </ul>
+        </menu>
         <article>
             <h1>
                 Este Termo de Uso estabelece as condições para o acesso e uso do site de Barbearia Online, operado pela empresa responsável pelo site.
@@ -42,5 +54,21 @@
     <footer>
         <p>Criado Por <a href="">Felipe Korhonnen</a> Para Brother Cortes 2018-2023</p>
     </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 992) {
+                intens.style.display = 'block'
+            } else {
+                intens.style.display = 'none'
+            }
+        }
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
