@@ -8,7 +8,7 @@
 
 html, body {
     height: 100vh;
-    width: 100vw;
+    width: 98vw;
     background-color: rgba(0, 0, 0, 0.822);
     color: white;
     text-align: center;
@@ -58,8 +58,12 @@ main {
     margin-top: 15px;
     padding: 10px;
 }
+h1 {
+    font-size: 2.3em;
+}
 
 map > iframe {
+    position:
     background-position: center;
     max-width: 95vw;
     max-height: 95vh;
@@ -75,11 +79,10 @@ div {
 }
 
 section {
-    padding-top: 10vh;
+    padding-top: 12vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-
     font-size: 2.5vw;
 }
 
@@ -101,11 +104,11 @@ section#redes-sociais {
 }
 
 section#redes-sociais img {
-width: 50px;
-margin: 25px 10px 0px 0px;
-border-radius: 50%;
-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-box-sizing: border-box;
+    width: 50px;
+    margin: 25px 10px 0px 0px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
 }
 
 section#redes-sociais img:hover {
