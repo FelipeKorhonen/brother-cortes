@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+</head>
+<body>
+    <header>
+        <h1>Nossos Profissionais</h1>
+        <span id="burguer"  class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="trabalhosfeitos/trabalhos.html">Serviços</a></li>
+                <li><a href="">Contatos</a></li>
+                <li><a href="termosdeuso/termos.html">Termos de Uso</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <ul>
+                <li><p>Gustavo<img src="" alt=""></p></li>
+                <li><p>Gabriel<img src="" alt=""></p></li>
+                <li><p>Lucas<img src="" alt=""></p></li>
+                <li><p>Rafael<img src="" alt=""></p></li>
+            </ul>
+        </article>
+    </main>
+    <footer>
+        <p>Criado Por <a href="https://github.com/FelipeKorhonen">Felipe Korhonnen</a> Para Brother Cortes 2018-2023 ©</p>
+    </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 992) {
+                intens.style.display = 'block'
+            } else {
+                intens.style.display = 'none'
+            }
+        }
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
