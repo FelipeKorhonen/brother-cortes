@@ -99,6 +99,10 @@ section#img01 {
     background-attachment: fixed;
 }
 
+section > p {
+    font-size: 1.8em;
+}
+
 section#redes-sociais {
     text-align: center;
 }
